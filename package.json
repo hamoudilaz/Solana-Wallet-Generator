@@ -1,0 +1,22 @@
+{
+  "name": "generate-wallet",
+  "version": "1.0.0",
+  "main": "generateWallet.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env BIGINT_NO_WARNINGS=1 node --no-warnings generateWallet.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "gpu": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
